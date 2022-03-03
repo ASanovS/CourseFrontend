@@ -9,11 +9,63 @@
 </head>
 
 <body>
-    
-
-    <div>
-        <a href="/lesson3/info_page.html">Info_page tags</a><br>
-    </div>
+    <form action="" method="post">
+        <div>
+            <p>Name</p>
+            <input tabindex="1" type="text" name="name" placeholder="User name" id="">
+        </div>
+        <div>
+            <p>Password</p>
+            <input tabindex="2" type="password" name="password" placeholder="User password" id="">
+        </div>
+        <div>
+            <p>Phone</p>
+            <input tabindex="3" type="tel" name="phone" placeholder="User phone" id="">
+        </div>
+        <div>
+            <p>Sex</p>
+            <div>
+                <input checked tabindex="4" type="radio" name="gender" id="">Male
+            </div>
+            <div>
+                <input tabindex="4" type="radio" name="gender" id="">Female
+            </div>
+        </div>
+        <div>
+            <p>Estate</p>
+            <div>
+                <input type="checkbox" name="estate" id="">Bike
+            </div>
+            <div>
+                <input checked type="checkbox" name="estate" id="">Car
+            </div>
+            <div>
+                <input disabled type="checkbox" name="estate" id="">House
+            </div>
+        </div>
+        <div>
+            <p>Additional Information</p>
+            <textarea name="text"></textarea>
+        </div>
+        <div>
+            <p>Attach a photo</p>
+            <input type="file" name="file" id="">
+        </div>
+        <div>
+            <p>Like color</p>
+            <select name="color" id="">
+                <option value="red">Red</option>
+                <option selected value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="black">Black</option>
+            </select>
+        </div>
+        <div>
+            <p>Actions</p>
+            <button type="submit">Send</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
 </body>
 
 </html>
