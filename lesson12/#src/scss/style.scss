@@ -1,0 +1,21 @@
+@import "_nullstyles";
+// @import "_header";
+@import "_variables";
+@import "_mixins";
+
+.block {
+    padding: 50px;
+    font-size: 14px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    &__1 {
+        @include fz-c-grey(24px);
+    }
+
+    &__2 {
+        color: $colorgreen;
+    }
+
+    &__3 {
+        color: $coloryellow;
+    }
+}
