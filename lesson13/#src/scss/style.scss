@@ -1,0 +1,50 @@
+@import "_nullstyles";
+// @import "_header";
+@import "_variables";
+@import "_mixins";
+@import "_fonts";
+
+/*-------------------*/
+ @import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+
+body {
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text {
+    font-size: 30px;
+    line-height: 35px;
+    p {
+        margin-bottom: 30px;
+    }
+    p:nth-child(1) {
+        font-family: PT Sans;
+    }
+    p:nth-child(2) {
+        font-family: PT Sans;
+        font-style: italic;
+    }
+    p:nth-child(3) {
+        font-family: PT Sans;
+        font-weight: 700;
+    }
+    p:nth-child(4) {
+        font-family: PT Sans;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    p:nth-child(5) {
+        font-family: PTSbold;
+    }
+    p:nth-child(6) {
+        font-family: PTSbolditalic;
+    }
+    p:nth-child(7) {
+        font-family: PTSitalic;
+    }
+    p:nth-child(8) {
+        font-family: PTSregular;
+    }
+}

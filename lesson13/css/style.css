@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+@font-face {
+  font-family: PTSbold;
+  src: url(../fonts/PT_Sans/PTSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: PTSbolditalic;
+  src: url(../fonts/PT_Sans/PTSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PTSitalic;
+  src: url(../fonts/PT_Sans/PTSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: PTSregular;
+  src: url(../fonts/PT_Sans/PTSans-Regular.ttf);
+}
+
+/*-------------------*/
+body {
+  padding: 30px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+.text p:nth-child(1) {
+  font-family: PT Sans;
+}
+
+.text p:nth-child(2) {
+  font-family: PT Sans;
+  font-style: italic;
+}
+
+.text p:nth-child(3) {
+  font-family: PT Sans;
+  font-weight: 700;
+}
+
+.text p:nth-child(4) {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.text p:nth-child(5) {
+  font-family: PTSbold;
+}
+
+.text p:nth-child(6) {
+  font-family: PTSbolditalic;
+}
+
+.text p:nth-child(7) {
+  font-family: PTSitalic;
+}
+
+.text p:nth-child(8) {
+  font-family: PTSregular;
+}
