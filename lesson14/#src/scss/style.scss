@@ -1,0 +1,19 @@
+@import "_nullstyles";
+// @import "_header";
+@import "_variables";
+// @import "_mixins";
+@import "_fonts";
+
+.wraper {
+    width: 100%;min-height: 100%;overflow: hidden;
+}
+
+.container {
+    max-width: 1101px;
+    margin: auto;
+    font-family: $fontfamaly;
+}
+
+.partners__pratners-item {
+    background-color: #555;
+}
